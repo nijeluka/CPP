@@ -14,10 +14,10 @@ int main(){
 		printf("Error");
 	
 	
-	for(i=n;i>0;i--){
-	for(x=n;x>0;x--) 
-		printf(".");
-	printf("\n");
+	for(i=n;i>0;i--){ //i=4, i=3, i=2,i=1, i=0
+	for(x=n;x>0;x--)  //x=4, x=3 , x=2, x=1, x=0 
+		printf(".");  //.... \n .... \n .... \n ....\n
+	printf(i==1?"""\n");
 }
 }
 	
