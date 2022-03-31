@@ -13,7 +13,6 @@ int main(){
 		printf("Unesi masu\n");
 		scanf("%d",&masa);
 		n--;
-		printf("%d\n",sum);
 		if(sum+masa>1000){
 			sum=masa;
 			count++;
